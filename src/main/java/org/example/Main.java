@@ -8,7 +8,7 @@ public class Main {
 
         Event event = new Event();
 
-        Controller controller= ControllerEnvironment.getDefaultEnvironment().getControllers()[0];
+        Controller controller = ControllerEnvironment.getDefaultEnvironment().getControllers()[0];
 
         /* Get the available controllers */
         while (controller.poll()) {
